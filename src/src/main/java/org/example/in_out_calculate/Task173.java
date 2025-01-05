@@ -1,5 +1,5 @@
 
-package org.example;
+package org.example.in_out_calculate;
 
 import java.util.Scanner;
 

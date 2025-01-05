@@ -1,4 +1,4 @@
-package org.example;
+package org.example.in_out_calculate;
 
 public class Task171 {
     public static void main(String[] args) {
