@@ -12,12 +12,12 @@ public class Task212 {
         double x2 = scanner.nextDouble();
         double y2 = scanner.nextDouble();
 
-        double point1,point2;
-        point1 = Math.sqrt(Math.pow(x1,2)+Math.pow(y1,2));
-        point2 = Math.sqrt(Math.pow(x2,2)+Math.pow(y2,2));
-        if (point1 > point2){
+        double point1, point2;
+        point1 = Math.sqrt(Math.pow(x1, 2) + Math.pow(y1, 2));
+        point2 = Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2));
+        if (point1 > point2) {
             System.out.println("Вторая точка ближе");
-        } else if (point1 < point2){
+        } else if (point1 < point2) {
             System.out.println("Первая точка ближе");
         } else {
             System.out.println("Точки на равных расстояниях");

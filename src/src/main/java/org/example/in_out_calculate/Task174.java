@@ -9,6 +9,6 @@ public class Task174 {
         int cent = scan.nextInt();
         rub = rub + cent / 100;
         cent = cent % 100;
-        System.out.println(rub+" р. "+cent+" к.");
+        System.out.println(rub + " р. " + cent + " к.");
     }
 }

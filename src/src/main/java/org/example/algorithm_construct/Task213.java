@@ -20,7 +20,7 @@ public class Task213 {
             }
         } else {
             System.out.println("ERROR");
-           return;
+            return;
         }
         if (sum == 0) {
             System.out.println("NO");

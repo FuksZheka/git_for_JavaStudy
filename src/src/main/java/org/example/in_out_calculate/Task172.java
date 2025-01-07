@@ -1,4 +1,5 @@
 package org.example.in_out_calculate;
+
 import java.util.Scanner;
 
 public class Task172 {
@@ -11,6 +12,6 @@ public class Task172 {
         int secondOne;
         secondOne = scanner1.nextInt();
         int sum = firstOne + secondOne;
-        System.out.println(firstOne+secondOne);
+        System.out.println(firstOne + secondOne);
     }
 }

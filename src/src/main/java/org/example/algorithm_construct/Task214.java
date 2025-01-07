@@ -13,15 +13,13 @@ public class Task214 {
         int sum_46 = 0;
         if (digit_str.length() == 6) {
             for (int i = digit; i > 999; i /= 10) {
-                    sum_46 += i % 10;
-                }
-            int digit123 = digit /1000;
-            for (int j = digit123; j > 0 ; j/=10) {
+                sum_46 += i % 10;
+            }
+            int digit123 = digit / 1000;
+            for (int j = digit123; j > 0; j /= 10) {
                 sum_13 += j % 10;
             }
-        }
-
-         else {
+        } else {
             System.out.println("ERROR");
             return;
         }

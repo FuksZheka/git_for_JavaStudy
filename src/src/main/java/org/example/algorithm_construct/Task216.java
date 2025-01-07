@@ -10,10 +10,10 @@ public class Task216 {
         for (int i = 0; i < inputArray.length; i++) {
 
             inputArray[i] = scanner.nextInt();
-            if (i == 0){
+            if (i == 0) {
                 minimum = inputArray[i];
             }
-            if (inputArray[i] <= minimum){
+            if (inputArray[i] <= minimum) {
                 minimum = inputArray[i];
             }
         }
