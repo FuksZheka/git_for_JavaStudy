@@ -1,4 +1,4 @@
-package org.example.cycle_operator;
+package org.example.CodeWarsJava.main.java.org.example;
 
 public class TaskBuilder {
 
