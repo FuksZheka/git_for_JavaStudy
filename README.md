@@ -1,2 +1,3 @@
 # git_for_JavaStudy
-Java Study
+Java Study.
+https://stepik.org/course/124803/syllabus Решение
