@@ -1,4 +1,4 @@
-package org.example.CodeWarsJava.main.java.org.example;
+package org.example.example;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -8,7 +8,6 @@ public class AtTrainee2 {
     //Задание - найти минимальный элемент по диагонали
 
     public static void diagonalFinder(int n) {
-        //       int[][] twoDimArray = {{1, 2, 3, 4, 5}, {5, 7, 9, 2, 1}, {0, 9, 1, 8, 7}, {6, 3, 6, 6, 6}, {99, 100, -2, 3, 1}};
         int[][] twoDimArray2 = new int[n - 1][n - 1];
 
         for (int i = 0; i < n - 1; i++) {

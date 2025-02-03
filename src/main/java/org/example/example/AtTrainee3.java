@@ -1,4 +1,4 @@
-package org.example.CodeWarsJava.main.java.org.example;
+package org.example.example;
 
 public class AtTrainee3 {
     private static int i;

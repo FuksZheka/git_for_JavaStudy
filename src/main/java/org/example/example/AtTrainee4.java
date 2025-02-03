@@ -1,11 +1,11 @@
-package org.example.CodeWarsJava.main.java.org.example;
+package org.example.example;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class AtTrainee4 implements AtTraineeInterface {
+public class AtTrainee4 implements org.example.example.AtTraineeInterface {
 
     Map<String, Integer> productMap = new HashMap<>();
 

@@ -1,4 +1,4 @@
-package org.example.CodeWarsJava.main.java.org.example;
+package org.example.example;
 
 public class App {
     public static void main(String[] args) {
@@ -6,6 +6,7 @@ public class App {
         //AtTrainee.workerSorter();
         //gasda.gav(3);
         //JavaMagics.randomizer();
-        AtTrainee test = new AtTrainee3(3).generatorOfDigits();
+        new AtTrainee3(3);
+        AtTrainee test = AtTrainee3.generatorOfDigits();
     }
 }
