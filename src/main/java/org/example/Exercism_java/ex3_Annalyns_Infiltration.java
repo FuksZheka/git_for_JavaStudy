@@ -1,6 +1,6 @@
 package org.example.Exercism_java;
 
-public class Annalyns_Infiltration_ex3 {
+public class ex3_Annalyns_Infiltration {
     public static boolean canFastAttack(boolean knightIsAwake) {
         return !knightIsAwake;
     }

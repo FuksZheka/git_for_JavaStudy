@@ -70,10 +70,10 @@ You're an avid bird watcher who keeps track of how many birds have visited your 
 
 You have six tasks, all dealing with the numbers of birds that visited your garden.
 */
-public class Bird_watcher_ex4 {
+public class ex4_Bird_watcher {
     private final int[] birdsPerDay;
 
-    public Bird_watcher_ex4(int[] birdsPerDay) {
+    public ex4_Bird_watcher(int[] birdsPerDay) {
         this.birdsPerDay = birdsPerDay.clone();
     }
 
@@ -121,7 +121,7 @@ public class Bird_watcher_ex4 {
 
     public static void main(String[] args) {
         int[] birdsPerDay = {2, 5, 0, 7, 4, 1};
-        Bird_watcher_ex4 birdCount = new Bird_watcher_ex4(birdsPerDay);
+        ex4_Bird_watcher birdCount = new ex4_Bird_watcher(birdsPerDay);
 //        birdCount.incrementTodaysCount();
 //        System.out.println(birdCount.getToday());
         System.out.println(birdCount.getBusyDays());

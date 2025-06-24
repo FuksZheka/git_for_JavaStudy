@@ -70,7 +70,7 @@ Karl wants to keep track of a list of languages to learn on Exercism's website. 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Karls_Languages_ex5 {
+public class ex5_Karls_Languages {
     private final List<String> languages = new ArrayList<>();
 
     public boolean isEmpty() {
@@ -102,7 +102,7 @@ public class Karls_Languages_ex5 {
     }
 
     public static void main(String[] args) {
-        Karls_Languages_ex5 karlsLanguagesEx5 = new Karls_Languages_ex5();
+        ex5_Karls_Languages karlsLanguagesEx5 = new ex5_Karls_Languages();
         System.out.println(karlsLanguagesEx5.isEmpty());
     }
 }
