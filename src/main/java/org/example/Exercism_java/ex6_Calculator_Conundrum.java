@@ -21,7 +21,6 @@ public class ex6_Calculator_Conundrum {
         }
 
 
-
     }
 
     private void validateOperation(String operation) {
